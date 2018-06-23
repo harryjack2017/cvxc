@@ -102,3 +102,28 @@ Started 2018-06-21T11:36:53.160Z GET / ::1
 [2018-06-21 19:36:53.190] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-06-21T11:36:53.169Z"},"deleted":false}pages [32m0ms[39m
 [2018-06-21 19:36:53.209] [INFO] cheese - Render view index [32m(19ms)[39m
 [2018-06-21 19:36:53.212] [INFO] cheese - Completed 200 [32m(52ms)[39m
+[2018-06-21 21:13:20.617] [INFO] cheese - NodeClub listening on port 3000
+[2018-06-21 21:13:20.618] [INFO] cheese - God bless love....
+[2018-06-21 21:13:20.618] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-06-21 21:13:20.618] [INFO] cheese - 
+[2018-06-23 14:52:01.268] [INFO] cheese - NodeClub listening on port 3000
+[2018-06-23 14:52:45.350] [INFO] cheese - NodeClub listening on port 3000
+[2018-06-23 14:52:58.329] [INFO] cheese - NodeClub listening on port 3000
+[2018-06-23 14:52:58.332] [INFO] cheese - God bless love....
+[2018-06-23 14:52:58.332] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-06-23 14:52:58.333] [INFO] cheese - 
+[2018-06-23 14:53:19.081] [INFO] cheese - NodeClub listening on port 3000
+[2018-06-23 14:53:19.083] [INFO] cheese - God bless love....
+[2018-06-23 14:53:19.083] [INFO] cheese - You can debug your app with http://localhost:3000
+[2018-06-23 14:53:19.083] [INFO] cheese - 
+[2018-06-23 14:53:22.411] [INFO] cheese - 
+
+Started 2018-06-23T06:53:22.410Z GET / ::1
+[2018-06-23 14:53:22.430] [DEBUG] cheese - MONGO topics.find {"conditions":{"deleted":false,"create_at":{"$gte":"2017-06-23T06:53:22.417Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} 7ms
+[2018-06-23 14:53:22.432] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-06-23T06:53:22.417Z"},"deleted":false}pages 0ms
+[2018-06-23 14:53:22.433] [DEBUG] cheese - MONGO topics.find {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} 7ms
+[2018-06-23 14:53:22.433] [DEBUG] cheese - MONGO users.find {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} 7ms
+[2018-06-23 14:53:22.437] [DEBUG] cheese - Cache set no_reply_topics 0ms
+[2018-06-23 14:53:22.438] [DEBUG] cheese - Cache set tops 1ms
+[2018-06-23 14:53:22.456] [INFO] cheese - Render view index (18ms)
+[2018-06-23 14:53:22.459] [INFO] cheese - Completed 200 (49ms)
