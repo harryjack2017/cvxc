@@ -233,3 +233,77 @@ Started 2018-07-06T07:34:01.799Z GET /signup ::1
 Started 2018-07-06T07:34:02.691Z GET /signin ::1
 [2018-07-06 15:34:02.705] [INFO] cheese - Render view sign/signin (12ms)
 [2018-07-06 15:34:02.707] [INFO] cheese - Completed 200 (16ms)
+[2018-07-06 17:13:46.093] [INFO] cheese - NodeClub listening on port 3002
+[2018-07-06 17:13:46.095] [INFO] cheese - God bless love....
+[2018-07-06 17:13:46.095] [INFO] cheese - You can debug your app with http://localhost:3002
+[2018-07-06 17:13:46.095] [INFO] cheese - 
+[2018-07-06 17:13:50.826] [INFO] cheese - 
+
+Started 2018-07-06T09:13:50.826Z GET / ::1
+[2018-07-06 17:13:50.851] [DEBUG] cheese - MONGO topics.find {"conditions":{"deleted":false,"create_at":{"$gte":"2017-07-06T09:13:50.835Z"},"tab":{"$nin":["job","dev"]}},"options":{"skip":0,"limit":20,"sort":{"top":-1,"last_reply_at":-1},"fields":{}},"collectionName":"topics"} 8ms
+[2018-07-06 17:13:50.853] [DEBUG] cheese - MONGO users.find {"conditions":{"is_block":false},"options":{"limit":10,"sort":{"score":-1}},"collectionName":"users"} 6ms
+[2018-07-06 17:13:50.857] [DEBUG] cheese - MONGO topics.find {"conditions":{"deleted":false,"tab":{"$nin":["job","dev"]},"reply_count":0},"options":{"limit":5,"sort":{"create_at":-1},"fields":{}},"collectionName":"topics"} 9ms
+[2018-07-06 17:13:50.860] [DEBUG] cheese - Cache set tops 1ms
+[2018-07-06 17:13:50.861] [DEBUG] cheese - Cache set no_reply_topics 0ms
+[2018-07-06 17:13:50.863] [DEBUG] cheese - Cache set {"tab":{"$nin":["job","dev"]},"create_at":{"$gte":"2017-07-06T09:13:50.835Z"},"deleted":false}pages 0ms
+[2018-07-06 17:13:50.885] [INFO] cheese - Render view index (21ms)
+[2018-07-06 17:13:50.889] [INFO] cheese - Completed 200 (63ms)
+[2018-07-06 17:13:53.825] [INFO] cheese - 
+
+Started 2018-07-06T09:13:53.825Z GET /signup ::1
+[2018-07-06 17:13:53.836] [INFO] cheese - Render view sign/signup (10ms)
+[2018-07-06 17:13:53.838] [INFO] cheese - Completed 200 (13ms)
+[2018-07-06 17:14:19.789] [INFO] cheese - 
+
+Started 2018-07-06T09:14:19.789Z POST /signup ::1
+[2018-07-06 17:15:26.076] [DEBUG] cheese - MONGO users.find {"conditions":{"$or":[{"loginname":"harryjack"},{"email":"cbxcvip@sina.cn"}]},"options":{},"collectionName":"users"} 15ms
+[2018-07-06 17:17:40.107] [INFO] cheese - Render view sign/signup (13ms)
+[2018-07-06 17:17:50.910] [INFO] cheese - 
+
+Started 2018-07-06T09:17:50.910Z POST /signup ::1
+[2018-07-06 17:17:53.466] [DEBUG] cheese - MONGO users.find {"conditions":{"$or":[{"loginname":"harryjack"},{"email":"cbxcvip@sina.cn"}]},"options":{},"collectionName":"users"} 3ms
+[2018-07-06 17:17:54.131] [INFO] cheese - Render view sign/signup (15ms)
+[2018-07-06 17:17:54.133] [INFO] cheese - Completed 422 (3223ms)
+[2018-07-06 17:24:01.675] [INFO] cheese - NodeClub listening on port 3002
+[2018-07-06 17:24:01.677] [INFO] cheese - God bless love....
+[2018-07-06 17:24:01.677] [INFO] cheese - You can debug your app with http://localhost:3002
+[2018-07-06 17:24:01.678] [INFO] cheese - 
+[2018-07-06 17:24:05.180] [INFO] cheese - 
+
+Started 2018-07-06T09:24:05.179Z POST /signup ::1
+[2018-07-06 17:24:08.385] [DEBUG] cheese - MONGO users.find {"conditions":{"$or":[{"loginname":"harryjack"},{"email":"cbxcvip@sina.cn"}]},"options":{},"collectionName":"users"} 3ms
+[2018-07-06 17:24:11.853] [INFO] cheese - Render view sign/signup (24ms)
+[2018-07-06 17:24:11.894] [INFO] cheese - Completed 422 (6715ms)
+[2018-07-06 17:25:24.866] [INFO] cheese - 
+
+Started 2018-07-06T09:25:24.866Z POST /signup ::1
+[2018-07-06 17:25:24.876] [DEBUG] cheese - MONGO users.find {"conditions":{"$or":[{"loginname":"harryjack1"},{"email":"cbxcvip@sina.cn"}]},"options":{},"collectionName":"users"} 1ms
+[2018-07-06 17:25:24.887] [INFO] cheese - Render view sign/signup (8ms)
+[2018-07-06 17:25:24.889] [INFO] cheese - Completed 422 (23ms)
+[2018-07-06 17:25:29.026] [INFO] cheese - 
+
+Started 2018-07-06T09:25:29.026Z POST /signup ::1
+[2018-07-06 17:25:29.030] [DEBUG] cheese - MONGO users.find {"conditions":{"$or":[{"loginname":"harryjack1"},{"email":"cbxcvip@sina.cn"}]},"options":{},"collectionName":"users"} 1ms
+[2018-07-06 17:25:29.044] [INFO] cheese - Render view sign/signup (12ms)
+[2018-07-06 17:25:29.046] [INFO] cheese - Completed 422 (20ms)
+[2018-07-06 17:25:34.269] [INFO] cheese - 
+
+Started 2018-07-06T09:25:34.269Z POST /signup ::1
+[2018-07-06 17:25:34.272] [DEBUG] cheese - MONGO users.find {"conditions":{"$or":[{"loginname":"harryjack1"},{"email":"cbxcvip@sina.cn"}]},"options":{},"collectionName":"users"} 1ms
+[2018-07-06 17:25:34.287] [INFO] cheese - Render view sign/signup (13ms)
+[2018-07-06 17:25:34.290] [INFO] cheese - Completed 422 (21ms)
+[2018-07-06 17:25:37.480] [INFO] cheese - 
+
+Started 2018-07-06T09:25:37.480Z POST /signup ::1
+[2018-07-06 17:25:37.483] [DEBUG] cheese - MONGO users.find {"conditions":{"$or":[{"loginname":"harryjack1"},{"email":"cbxcvip@sina.cn"}]},"options":{},"collectionName":"users"} 1ms
+[2018-07-06 17:25:37.493] [INFO] cheese - Render view sign/signup (9ms)
+[2018-07-06 17:25:37.495] [INFO] cheese - Completed 422 (15ms)
+[2018-07-06 17:55:47.778] [INFO] cheese - 
+
+Started 2018-07-06T09:55:47.778Z POST /signup ::1
+[2018-07-06 17:55:47.782] [DEBUG] cheese - MONGO users.find {"conditions":{"$or":[{"loginname":"goodbye"},{"email":"cbxcvip@sina.cn"}]},"options":{},"collectionName":"users"} 1ms
+[2018-07-06 17:58:23.799] [INFO] cheese - Render view sign/signup (6ms)
+[2018-07-06 17:58:27.899] [INFO] cheese - NodeClub listening on port 3002
+[2018-07-06 17:58:27.900] [INFO] cheese - God bless love....
+[2018-07-06 17:58:27.901] [INFO] cheese - You can debug your app with http://localhost:3002
+[2018-07-06 17:58:27.901] [INFO] cheese - 

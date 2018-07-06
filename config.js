@@ -11,7 +11,7 @@ var config = {
     get mini_assets (){ return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
     name: '工作日志', // 社区名字
-    description: '记录平时工作的点点滴滴', // 社区的描述
+    description: '工作日志', // 社区的描述
     keywords: 'Nodejs, Python, Golang, javascript, Mongodb',
 
     // 添加到 html head 中的信息
@@ -28,7 +28,7 @@ var config = {
     // cdn host，如 http://cnodejs.qiniudn.com
     site_static_host: '', // 静态文件存储域名
     // 社区的域名
-    host: 'localhost',
+    host: 'http://www.cbxcvip.cn',
     // 默认的Google tracker ID，自有站点请修改，申请地址：http://www.google.com/analytics/
     google_tracker_id: '',
     // 默认的cnzz tracker ID，自有站点请修改
@@ -47,7 +47,7 @@ var config = {
     auth_cookie_name: 'node_club',
 
     // 程序运行的端口
-    port: 3002,
+    port: 80,
 
     // 话题列表显示的话题数量
     list_topic_count: 20,
@@ -66,13 +66,11 @@ var config = {
 
     // 邮箱配置
     mail_opts: {
-        host: 'smtp.126.com',
-        port: 25,
+        host: 'smtp.qq.com',
         auth: {
-            user: 'club@126.com',
-            pass: 'club'
-        },
-        ignoreTLS: true,
+            user: 'nodefly@qq.com',
+            pass: 'poilxakdtfxnbjdb'
+        }
     },
 
     //weibo app key
