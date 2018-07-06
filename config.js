@@ -10,9 +10,9 @@ var config = {
 
     get mini_assets (){ return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
-    name: '潮白新城社区', // 社区名字
-    description: '潮白新城最大的生活社区', // 社区的描述
-    keywords: '潮白新城, 大厂, 潮白邻居, 潮白河, 孔雀城',
+    name: '工作日志', // 社区名字
+    description: '记录平时工作的点点滴滴', // 社区的描述
+    keywords: 'Nodejs, Python, Golang, javascript, Mongodb',
 
     // 添加到 html head 中的信息
     site_headers: [
