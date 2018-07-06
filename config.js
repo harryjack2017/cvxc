@@ -12,11 +12,11 @@ var config = {
 
     name: '潮白新城社区', // 社区名字
     description: '潮白新城最大的生活社区', // 社区的描述
-    keywords: '潮白新城, node, express, connect, socket.io',
+    keywords: '潮白新城, 大厂, 潮白邻居, 潮白河, 孔雀城',
 
     // 添加到 html head 中的信息
     site_headers: [
-        '<meta name="author" content="EDP@TAOBAO" />'
+        '<meta name="author" content="cbxcvip@sina.cn" />'
     ],
     site_logo: '/public/images/cnodejs_light.svg', // default is `name`
     site_icon: '/public/images/cnode_icon_32.png', // 默认没有 favicon, 这里填写网址
@@ -47,7 +47,7 @@ var config = {
     auth_cookie_name: 'node_club',
 
     // 程序运行的端口
-    port: 3000,
+    port: 3002,
 
     // 话题列表显示的话题数量
     list_topic_count: 20,
